@@ -1,6 +1,29 @@
-#home {
-    margin-top: 56px;  
-    padding: 1.5rem;
-    border-inline-start-color: blueviolet;
-    border-inline-end-color: deeppink;
+.nav-link:hover {
+     color: aqua;
 }
+
+.nav-link.active {
+    color: aqua;
+}
+
+#home {
+    padding: 7rem 2rem 2rem 2rem;
+}
+
+.btn {
+    background-color: aqua;
+}
+
+.card {
+    border-color: aqua;
+}
+
+.card-title {
+    color: #ecf5f8;
+    text-decoration: underline aqua;
+}
+
+.card-text {
+    color: #ecf5f8;
+}
+
