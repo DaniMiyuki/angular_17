@@ -1,3 +1,8 @@
+.navbar-brand {
+    color: deeppink;
+}
+
+
 .nav-link:hover {
      color: aqua;
 }
@@ -8,22 +13,74 @@
 
 #home {
     padding: 7rem 2rem 2rem 2rem;
+    color: #9b9a9a;
 }
 
 .btn {
     background-color: aqua;
+    color: #212529;
+    border-color:#212529;
+}
+
+.btn:hover{
+    background-color: #212529;
+    color: aqua;
+    border-color: aqua;
 }
 
 .card {
     border-color: aqua;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 15px 25px 5px rgba(0, 0, 0, 0.3);
 }
 
 .card-title {
-    color: #ecf5f8;
+    color: rgb(170, 171, 171);
     text-decoration: underline aqua;
 }
 
 .card-text {
-    color: #ecf5f8;
+    color: #a3a5a5;
+}
+
+.page-link {
+    color: aqua;
+    background-color: #212529;
+    border-color: aqua;
+}
+
+.page-link:hover {
+    background-color: aqua;
+    color: #212529;
+}
+
+.page-link::selection {
+    background-color: aqua;
+    color: #212529;
+}
+
+form {
+    color: aqua;
+    padding: 3rem;
+    border-color: aqua 1px;
+}
+
+input, span {
+    background-color: #212529;
+    border-color: aqua;
+    color: aqua;
+}
+
+input:focus{
+    background-color: #212529;
+    color:#9b9a9a;
+}
+
+input::placeholder {
+    color: #9b9a9a;
+}
+
+.form-check-input {
+    background-color: #212529;
+    border-color: aqua;
 }
 

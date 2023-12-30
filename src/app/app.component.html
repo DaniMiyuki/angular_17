@@ -4,7 +4,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-    <ul class="navbar-nav ms-auto">
+    <ul class="navbar-nav">
       <li class="nav-item">
         <a href="#home" class="nav-link active">HOME</a>
       </li>
@@ -12,19 +12,19 @@
         <a href="#" class="nav-link">About Me</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">Portfolio</a>
+        <a href="#card" class="nav-link">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">Blog</a>
+        <a href="#blog" class="nav-link">Blog</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">Contact</a>
+        <a href="#form" class="nav-link">Contact</a>
       </li>
     </ul>
   </div>
 </nav>
 
-<div class="container-fluid bg-dark text-white" id="home">
+<div class="container-fluid bg-dark" id="home">
   <h3><i><b>Lorem ipsum</b> dolor sit amet consectetur adipisicing elit.
      Aliquid enim doloribus qui sit aperiam in sunt nisi, 
      harum ea vel dignissimos excepturi,
@@ -33,15 +33,137 @@
     </h3>
 </div>
 
-<div class="card bg-dark" style="width: 400px;">
-  <img src="/assets/images/tech.jpg" alt="Card image" class="card-img-top">
-  <div class="card-body">
-    <h4 class="card-title">Card TITLE</h4>
-    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Numquam ipsum illo unde corrupti esse ducimus perferendis totam dolor modi 
-      doloribus et deleniti nisi ut aut at praesentium, laboriosam delectus? 
-      Natus!
-    </p>
-    <a href="#" class="btn">Go somewhere</a>
+<div class="container-fluid p-3" id="card">
+  <div class="row">
+    <div class="col-sm-4 mb-3 mb-sm-0">
+      <div class="card bg-dark">
+        <img src="/assets/images/ai-generated.jpg" alt="Card image" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title">Card TITLE</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Numquam ipsum illo unde corrupti esse ducimus perferendis totam dolor modi 
+            doloribus et deleniti nisi ut aut at praesentium, laboriosam delectus? 
+            Natus!
+          </p>
+          <a href="#" class="btn">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-4 mb-3 mb-sm-0">
+      <div class="card bg-dark">
+        <img src="/assets/images/ai-generated.jpg" alt="Card image" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title">Card TITLE</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Numquam ipsum illo unde corrupti esse ducimus perferendis totam dolor modi 
+            doloribus et deleniti nisi ut aut at praesentium, laboriosam delectus? 
+            Natus!
+          </p>
+          <a href="#" class="btn">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <div class="card bg-dark">
+        <img src="/assets/images/ai-generated.jpg" alt="Card image" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title">Card TITLE</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Numquam ipsum illo unde corrupti esse ducimus perferendis totam dolor modi 
+            doloribus et deleniti nisi ut aut at praesentium, laboriosam delectus? 
+            Natus!
+          </p>
+          <a href="#" class="btn">Go somewhere</a>
+        </div>
+      </div>
+    </div>  
   </div>
 </div>
+
+<div class="container mt-5" id="blog">
+  <div class="content-container">
+    <div class="page-content text-white" style="height: 420px;" id="page1">
+      <h2>Pagina1</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Deleniti laudantium, labore ipsam officiis nulla earum reprehenderit 
+        magnam aut saepe facere voluptate quidem consectetur placeat itaque 
+        aliquid veritatis consequatur, 
+        fugiat corporis!
+      </p>
+    </div>
+    <div class="page-content text-white" style="height: 420px;" id="page2">
+      <h2>Página 2</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Eius tempora, 
+        illum quisquam cumque perspiciatis ut ad, 
+        dicta possimus consequuntur quae magni soluta 
+        numquam vero optio, corrupti saepe fugiat
+         commodi repudiandae?
+        </p>
+    </div>
+    
+    <div class="page-content text-white" style="height: 420px;"  id="page3">
+      <h2>Página 3</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Architecto dolorum ipsa ut esse, magni ea porro tempora,
+         rerum, beatae deleniti atque rem.
+         Veritatis nihil fugit dolore non rerum soluta quas!</p>
+    </div>
+  </div>
+  <nav aria-label="Pages navigation">
+    <ul class="pagination justify-content-center mt-5 p-3">
+      <li class="page-item disabled"><a href="#" class="page-link">Previous</a></li>
+      <li class="page-item active"><a href="#page1" class="page-link">1</a></li>
+      <li class="page-item"><a href="#page2" class="page-link">2</a></li>
+      <li class="page-item"><a href="#page3" class="page-link">3</a></li>
+      <li class="page-item"><a href="#" class="page-link">Next</a></li>
+    </ul>
+  </nav>
+</div>
+
+<hr style="color: #00ffff; border-width: 3px;">
+
+
+<form action="process" method="post" class="row g-3 needs-validation" id="form" novalidate>
+  <div class="header"><h1>Form</h1></div>
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationCustom01" value="" placeholder="First name" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationCustom02" value="" placeholder="Last name" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustomUsername" class="form-label">E-mail</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend">&#64;</span>
+      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="E-mail" required>
+      <div class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
