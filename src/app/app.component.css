@@ -1,7 +1,11 @@
 .navbar-brand {
+    margin-left: 3rem;
     color: deeppink;
 }
 
+.navbar-nav {
+    margin-right: 3rem;
+}
 
 .nav-link:hover {
      color: aqua;
@@ -12,9 +16,13 @@
 }
 
 #home {
-    padding: 7rem 2rem 2rem 2rem;
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+#aboutMe {
     color: #9b9a9a;
 }
+
 
 .btn {
     background-color: aqua;
@@ -42,6 +50,10 @@
     color: #a3a5a5;
 }
 
+.page-content {
+    color: #facfd9;
+}
+
 .page-link {
     color: aqua;
     background-color: #212529;
@@ -58,7 +70,9 @@
     color: #212529;
 }
 
-form {
+#form {
+    justify-content: center;
+    max-width: 60rem;
     color: aqua;
     padding: 3rem;
     border-color: aqua 1px;

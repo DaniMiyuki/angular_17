@@ -1,5 +1,6 @@
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#"><h1>Miyuu</h1></a>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" style="    box-shadow: 0px 0px 10px rgba(0 0 0 );
+">
+  <a class="navbar-brand" href="#"><h1>Portfolio</h1></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -9,7 +10,7 @@
         <a href="#home" class="nav-link active">HOME</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">About Me</a>
+        <a href="#aboutMe" class="nav-link">About Me</a>
       </li>
       <li class="nav-item">
         <a href="#card" class="nav-link">Portfolio</a>
@@ -24,16 +25,26 @@
   </div>
 </nav>
 
-<div class="container-fluid bg-dark" id="home">
-  <h3><i><b>Lorem ipsum</b> dolor sit amet consectetur adipisicing elit.
-     Aliquid enim doloribus qui sit aperiam in sunt nisi, 
-     harum ea vel dignissimos excepturi,
-     fugiat cupiditate vero consequatur animi ullam, 
-     ratione inventore?</i>
-    </h3>
+<div class="container-fluid" style="max-width: 100%; margin: 0 auto; height: auto;" id="home">
+  <img class="pt-5" src="/assets/images/bot-4.png" alt="bots" style="width: 100%; height: auto; display: block;">
 </div>
 
-<div class="container-fluid p-3" id="card">
+<hr style="color: aqua;">
+
+<div class="container bg-dark justify-content-center text-align-center p-5" id="aboutMe">
+  <h3 id="h3" style="text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5 );">About Me</h3>
+  <br>
+  <i><b>Lorem ipsum</b> dolor sit amet consectetur adipisicing elit. <br>
+     Aliquid enim doloribus qui sit aperiam in sunt nisi, <br>
+     harum ea vel dignissimos excepturi, <br>
+     fugiat cupiditate vero consequatur animi ullam, <br>
+     ratione inventore?
+  </i>    
+</div>
+
+<hr style="color: aqua;">
+
+<div class="container-fluid p-3 mt-5" id="card">
   <div class="row">
     <div class="col-sm-4 mb-3 mb-sm-0">
       <div class="card bg-dark">
@@ -83,8 +94,8 @@
 </div>
 
 <div class="container mt-5" id="blog">
-  <div class="content-container">
-    <div class="page-content text-white" style="height: 420px;" id="page1">
+  <div class="content-container" id="text-blog">
+    <div class="page-content" style="height: 420px;" id="page1">
       <h2>Pagina1</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Deleniti laudantium, labore ipsam officiis nulla earum reprehenderit 
@@ -93,7 +104,7 @@
         fugiat corporis!
       </p>
     </div>
-    <div class="page-content text-white" style="height: 420px;" id="page2">
+    <div class="page-content" style="height: 420px;" id="page2">
       <h2>Página 2</h2>
       <p>Lorem ipsum dolor sit amet consectetur, 
         adipisicing elit. Eius tempora, 
@@ -104,7 +115,7 @@
         </p>
     </div>
     
-    <div class="page-content text-white" style="height: 420px;"  id="page3">
+    <div class="page-content" style="height: 420px;"  id="page3">
       <h2>Página 3</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
          Architecto dolorum ipsa ut esse, magni ea porro tempora,
@@ -125,34 +136,30 @@
 
 <hr style="color: #00ffff; border-width: 3px;">
 
-
-<form action="process" method="post" class="row g-3 needs-validation" id="form" novalidate>
-  <div class="header"><h1>Form</h1></div>
-  <div class="col-md-4">
+<div class="container" id="form" >
+  <form action="process" method="post" class="row g-3 needs-validation justify-content-center" id="form" novalidate>
+    <div class="header"><h1>Form</h1></div>
     <label for="validationCustom01" class="form-label">First name</label>
     <input type="text" class="form-control" id="validationCustom01" value="" placeholder="First name" required>
     <div class="valid-feedback">
       Looks good!
     </div>
-  </div>
-  <div class="col-md-4">
+
     <label for="validationCustom02" class="form-label">Last name</label>
     <input type="text" class="form-control" id="validationCustom02" value="" placeholder="Last name" required>
     <div class="valid-feedback">
       Looks good!
     </div>
-  </div>
-  <div class="col-md-4">
-    <label for="validationCustomUsername" class="form-label">E-mail</label>
+  
+    <label for="validationCustomUsername" class="form-label">Username</label>
     <div class="input-group has-validation">
       <span class="input-group-text" id="inputGroupPrepend">&#64;</span>
-      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="E-mail" required>
+      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="Username" required>
       <div class="invalid-feedback">
         Please choose a username.
       </div>
     </div>
-  </div>
-  <div class="col-12">
+  
     <div class="form-check">
       <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
       <label class="form-check-label" for="invalidCheck">
@@ -162,8 +169,16 @@
         You must agree before submitting.
       </div>
     </div>
-  </div>
-  <div class="col-12">
     <button class="btn btn-primary" type="submit">Submit form</button>
+  </form>
+</div>
+
+
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container justify-content-center">
+    <span class="navbar-text">
+      <b>© 2023 Meu Site | All Rights Reserved </b>
+    </span>
   </div>
-</form>
+
+</nav>
